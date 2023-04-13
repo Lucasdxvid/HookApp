@@ -37,3 +37,9 @@ En esta aplicación nos enfocaremos en estos trabajos y para qué nos pueden ser
 ✔ - Teoría de un reducer
 
 ✔ - CRUD local
+
+✔ - React Router
+
+✔ - Context
+
+✔ - useContext
