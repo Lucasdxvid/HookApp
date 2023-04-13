@@ -2,7 +2,9 @@ export const TodoItem = ({ todo, onDeleteTodo, onToggleTodo }) => {
   return (
     <li className="list-group-item d-flex justify-content-between bgTodo">
       <span
-        className="align-self-center bgTodo "
+        className={`align-self-center bgTodo ${
+          todo.done ? "text-decoration-line-through" : ""
+        }`}
         onClick={() => onToggleTodo(todo.id)}
       >
         {todo.description}
@@ -13,3 +15,7 @@ export const TodoItem = ({ todo, onDeleteTodo, onToggleTodo }) => {
     </li>
   );
 };
+
+// className={`align-self-center bgTodo ${
+//   todo.done && "text-decoration-line-through"
+// }`}
