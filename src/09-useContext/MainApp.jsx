@@ -7,7 +7,6 @@ import { Navbar } from "./Navbar";
 export const MainApp = () => {
   return (
     <>
-      <h2>MainApp</h2>
       <Navbar />
       <hr />
       <Routes>
