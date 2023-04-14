@@ -92,3 +92,7 @@ button:focus-visible {
 .bgTodo {
   background-color: #302f2f;
 }
+
+a {
+  margin-right: 5px;
+}
